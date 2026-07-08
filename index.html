@@ -2641,7 +2641,7 @@
             e.stopPropagation();
 
             var fields = collectFormData(form);
-            var fio = fields["Ат-Сывынар"] || "";
+            var fio = fields["name"] || "";
             if (!fio.trim()) {
               showMessage(form, "Ат-Сывынар бижиптинер.", false);
               return;
